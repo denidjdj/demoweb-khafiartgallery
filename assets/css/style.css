@@ -1,0 +1,256 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:rgba(255, 255, 255, 0.76)
+}
+
+/* navbar */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link i {
+  font-size: 20px;
+}
+/* navbar */
+
+
+/* Hero */
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../image/background/bg-khafi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+/* hero */
+
+/* Profil */
+
+
+.profil-box img {
+    width: 400px;
+  }
+  
+  @media (max-width: 475px) {
+    .profil-box img {
+      width: 300px;
+    }
+  }
+  /* Profil */
+
+  /* Services */
+.services {
+  width: 100%;
+}
+
+.services-box .service i {
+    font-size: 50px;
+  }
+  /* Services */
+
+/* Produk Unggulan */
+.produk-unggulan .swiper .swiper-slide img {
+    width: 100%;
+}
+
+.produk-unggulan .swiper .swiper-slide:hover {
+    cursor: grab;
+}
+
+.produk-unggulan .swiper .swiper-slide:hover :active{
+    cursor: grabbing;
+}
+
+.produk-unggulan .swiper .swiper-slide img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.produk-unggulan .swiper .swiper-slide img:hover {
+    -webkit-transform: scale(1.04);
+    -webkit-transition: 0.8s;
+}
+
+/* Produk Unggulan */
+
+/* Klien */
+.klien {
+  width: 100%;
+}
+
+.klien .swiper .swiper-slide {
+  width: 100%;
+}
+
+.klien .swiper .swiper-slide img {
+  width: 100%;
+}
+
+
+/* Klien */
+
+/* Footer */
+.footer{
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-box .row .col:nth-child(2) a{
+  opacity: 75%;
+}
+
+.footer-box .row .col:nth-child(2) a:hover {
+  opacity: 100%;
+}
+
+.footer .footer-box .col i {
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.footer .footer-box .col i:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  -webkit-transform: scale(1.08);
+  -webkit-transition: 0.8s;
+}
+
+.footer .footer-box .col a {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  margin-top: 50px;
+}
+/* Footer */
+
+/* page produk */
+
+.page-produk {
+  width: 100%;
+}
+
+.page-produk .container .box:hover {
+  cursor: pointer;
+}
+
+.page-produk .container .box a {
+  text-decoration: none;
+  color: black;
+}
+
+/* page produk */
+
+/* page artikel */
+
+.page-artikel .container .box {
+  width: 100%;
+}
+
+/* page artikel */
+
+/* page gallery */
+
+.page-gallery {
+  width: 100%;
+}
+
+/* page gallery */
+
+/* page kontak */
+.kontak-page {
+  width: 100%;
+}
+
+.kontak-page .container .box i {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.kontak-page .container .box a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/* page kontak */
+
+/* page diskripsi produk */
+
+
+.diskripsi-produk-box img {
+  width: 500px;
+}
+
+.diskripsi-produk-box p {
+  width: 500px;
+}
+
+@media (max-width: 992px) {
+  .diskripsi-produk-box img {
+    width: 300px;
+  }
+  
+  .diskripsi-produk-box p {
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
+.portofolio .container .swiper img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.08);
+  -webkit-transition: 0.8s;
+
+}
+
+.produk-lainnya-box .col a {
+  text-decoration: none;
+  color: black;
+}
+
+/* page diskripsi produk */
+
+/* page artikel produk */
+
+.artikel-produk-box img {
+  width: 500px;
+}
+
+.artikel-produk-box p {
+  width: 500px;
+}
+
+@media (max-width: 992px) {
+  .artikel-produk-box img {
+    width: 300px;
+  }
+  
+  .artikel-produk-box p {
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
+/* page artikel produk */
